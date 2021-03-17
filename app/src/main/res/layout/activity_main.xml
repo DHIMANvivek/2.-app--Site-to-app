@@ -1,0 +1,31 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="655dp"
+            android:id="@+id/web"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:id="@+id/btn"
+            android:text="Open"
+            android:textAllCaps="false"
+            android:textSize="45sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
